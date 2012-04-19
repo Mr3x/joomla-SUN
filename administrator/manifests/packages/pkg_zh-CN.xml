@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Id: zh-CN.install.xml 2012-01-24 Derek Joe $ -->
+<extension type="package" version="2.5">
+      <name>简体中文Simplified Chinese</name>
+	<tag>zh-CN</tag>
+      <packagename>zh-CN</packagename>
+      <version>2.5.0v1</version>
+	<creationDate>2012-01-24</creationDate>
+	<author>CHN Translation Team</author>
+	<authorEmail>zhous1998@sohu.com</authorEmail>
+	<authorUrl>www.joomla.cn</authorUrl>
+	<copyright>Copyright (C) 2010 CHN Joomla Translation Team  (http://joomlacode.org/gf/project/choice/). All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Joomla 2.5.0语言是由Joomla官方翻译组的Derek Joe组织翻译。工作是在Joomla1.6的基础上进行的。Joomla 2.5.0语言的补充由Derek Joe完成，Eric Wong（http://berocks2.com/）协助校对。感谢Joomla 1.6翻译组的所有志愿者：武玉杰、Key Diagram、Yusuf  Wang、郭志攀！谢谢wayne82的反馈与建议！翻译基地：囧啦!中国（Joomla.cn）。欢迎喜欢翻译且懂得使用SVN的朋友随时可以加入我们的开源翻译组。</description>
+ <files>
+        <file type="language" client="site" id="zh-CN">site_zh-CN.zip</file>
+        <file type="language" client="admin" id="zh-CN">admin_zh-CN.zip</file>
+  </files>
+</extension>
