@@ -1,0 +1,16 @@
+/**
+ * @package   	JCE
+ * @copyright 	Copyright © 2009-2011 Ryan Demmer. All rights reserved.
+ * @license   	GNU/GPL 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * JCE is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ */
+@import url('../../../../../components/com_jce/editor/tiny_mce/themes/advanced/css/colorpicker.css');
+
+#colorpicker.ui-dialog-content {height:290px;}
+#colorpicker_preview {position:relative;top:0;margin:5px 0 0;}
+#colorpicker_web ul, #colorpicker_named ul, #colorpicker_template ul {margin: 0;}
+span.colorpicker_widget {background: url("../../../../../components/com_jce/editor/libraries/img/icons.png") no-repeat 0 -1000px;width: 16px;height: 16px;cursor: pointer;vertical-align: middle;display: inline-block;margin: 4px 5px 2px 5px;}
+
