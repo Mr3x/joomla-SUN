@@ -1,0 +1,37 @@
+#
+#<?php die('Forbidden.'); ?>
+#Date: 2012-04-20 14:15:22 UTC
+#Software: Joomla Platform 11.4.0 Stable [ Brian Kernighan ] 03-Jan-2012 00:00 GMT
+
+#Fields: date	time	priority	clientip	category	message
+2012-04-20	14:15:22	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.1 Array (     [0] => 1 ) 
+2012-04-20	14:15:22	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:16:59	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:16:59	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.1 Array ( ) 
+2012-04-20	14:17:01	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.1 Array (     [0] => 1 ) 
+2012-04-20	14:17:01	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:17:14	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:17:14	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.1 Array ( ) 
+2012-04-20	14:17:17	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.17 Array (     [0] => 17 ) 
+2012-04-20	14:17:17	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.17: 1 Array (     [0] => 17 ) 
+2012-04-20	14:19:56	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.17: 1 Array (     [0] => 17 ) 
+2012-04-20	14:19:56	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.17 Array ( ) 
+2012-04-20	14:20:13	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.1 Array (     [0] => 1 ) 
+2012-04-20	14:20:13	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:20:17	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	14:20:17	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.1 Array ( ) 
+2012-04-20	14:24:19	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.1 Array (     [0] => 1 ) 
+2012-04-20	14:24:19	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 1 Array (     [0] => 1 ) 
+2012-04-20	15:46:17	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.1: 0 Array ( ) 
+2012-04-20	16:04:10	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.87 Array (     [0] => 87 ) 
+2012-04-20	16:04:10	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.87: 1 Array (     [0] => 87 ) 
+2012-04-20	16:04:19	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.87: 1 Array (     [0] => 87 ) 
+2012-04-20	16:04:19	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.87 Array ( ) 
+2012-04-20	16:07:02	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.88 Array (     [0] => 88 ) 
+2012-04-20	16:07:03	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.88: 1 Array (     [0] => 88 ) 
+2012-04-20	16:07:29	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.88: 1 Array (     [0] => 88 ) 
+2012-04-20	16:07:29	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.88 Array ( ) 
+2012-04-20	16:12:55	INFO	127.0.0.1	-	Holding edit ID com_modules.edit.module.87 Array (     [0] => 87 ) 
+2012-04-20	16:12:55	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.87: 1 Array (     [0] => 87 ) 
+2012-04-20	16:13:15	INFO	127.0.0.1	-	Checking edit ID com_modules.edit.module.87: 1 Array (     [0] => 87 ) 
+2012-04-20	16:13:15	INFO	127.0.0.1	-	Releasing edit ID com_modules.edit.module.87 Array ( ) 

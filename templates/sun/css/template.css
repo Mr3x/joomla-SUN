@@ -1,0 +1,47 @@
+/* TEMPLATE CSS
+*********************************************/
+html {height:100%; margin-bottom:1px; overflow-y:scroll;}
+body {background-color:#fff; color:#000; font:normal normal normal 75%/125% arial,sans-serif; height:100%; text-align:center;}
+li {margin:0; padding:0; list-style:none;}
+
+/* LAYOUT
+*********************************************/
+#overall {height:100%; margin:0 auto; text-align:left; width:100%;}
+.container {width:980px; margin:0 auto;}
+
+#header {background:url(../images/bt_top.png) no-repeat center; width:100%; height:154px;}
+#content {}
+#footer {}
+
+/* Layout Classes */
+
+/* Floats */
+.float-left {float:left;}
+.float-right {float:right;}
+.group:before, .group:after {content:""; display:table;}
+.group:after {clear:both;}
+.ie6 .group {zoom:1;}
+.ie7 .group {zoom:1;}
+
+/* clearfix */
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+
+/* menu */
+#header .menu {width:735px; float:right; display:block;}
+#header .menu > li {float:left;}
+#header .menu > li a {display:block; width:105px; height:114px; text-indent:-199px; overflow:hidden;}
+#header li.item-101 a {background:url(../images/nav1.jpg) no-repeat 0 0;}
+#header li.item-102 a {background:url(../images/nav2.jpg) no-repeat 0 0;}
+#header li.item-103 a {background:url(../images/nav3.jpg) no-repeat 0 0;}
+#header li.item-104 a {background:url(../images/nav4.jpg) no-repeat 0 0;}
+#header li.item-105 a {background:url(../images/nav5.jpg) no-repeat 0 0;}
+#header li.item-106 a {background:url(../images/nav6.jpg) no-repeat 0 0;}
+#header li.item-107 a {background:url(../images/nav7.jpg) no-repeat 0 0;}
+#header .menu li a:hover,
+#header .menu li.active a
+ {background-position: 0 -114px;}
+
+/* slogan */
+.module_slogan {line-height:40px; color:#fff;}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>sun</name>
+	<creationDate>2012-4-20</creationDate>
+	<author>william</author>
+	<copyright>Copyright © william wen</copyright>
+	<authorEmail>william0760@qq.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description></description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>header</position>
+    <position>sidebar</position>
+    <position>content-top</position>
+    <position>content-bottom</position>
+		<position>footer-top</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="FIELD_SPACER_HEADER_DESC" type="spacer" hr="false" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
