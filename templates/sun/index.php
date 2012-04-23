@@ -13,6 +13,7 @@ $app = JFactory::getApplication();
 $doc = JFactory::getDocument(); 
 $params = &$app->getParams();
 $pageclass = $params->get('pageclass_sfx');
+$pageclass .= ' page-itemid'.JRequest::getVar('Itemid', 1);
 $tpath = $this->baseurl.'/templates/'.$this->template;
 
 $this->setGenerator(null);
@@ -62,17 +63,19 @@ unset($doc->_scripts[$this->baseurl.'/media/system/js/caption.js']);
         <jdoc:include type="modules" name="sidebar" style="block" />
       </div>
       <div id="content">
-    		<jdoc:include type="message" />
-        <jdoc:include type="modules" name="content-top" style="block" />
-    		<jdoc:include type="component" />
-        <jdoc:include type="modules" name="content-bottom" style="block" />
+      		<jdoc:include type="modules" name="content-top" style="none" />
+      		<div class="content">
+	    		<jdoc:include type="message" />
+	    		<jdoc:include type="component" />
+      		</div>
+      		<jdoc:include type="modules" name="content-bottom" style="none" />
       </div>
     </div>
     <div id="footer-top" class="container">
         <jdoc:include type="modules" name="footer-top" style="block" />
     </div>
     <div id="footer" class="container">
-        <jdoc:include type="modules" name="footer" style="block" />
+        <jdoc:include type="modules" name="footer" style="clearcontent" />
     </div>
 </div>
   <jdoc:include type="modules" name="debug" />

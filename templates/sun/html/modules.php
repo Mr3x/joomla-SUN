@@ -23,3 +23,14 @@ function modChrome_block($module, &$params, &$attribs) { ?>
 		</div>
 	</div><?php
 }
+
+function modChrome_clearcontent($module, &$params, &$attribs) { ?>
+	<div class="moduletable module<?php echo htmlspecialchars($params->get('moduleclass_sfx')); ?>">
+		<div class="bg">
+			<?php if ($module->showtitle) : ?>
+			<h3><?php echo JText::_( $module->title ); ?></h3>
+			<?php endif;?>
+			<div class="content clearfix"><?php echo $module->content; ?></div>
+		</div>
+	</div><?php
+}

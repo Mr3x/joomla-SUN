@@ -1,8 +1,10 @@
 /* TEMPLATE CSS
 *********************************************/
 html {height:100%; margin-bottom:1px; overflow-y:scroll;}
-body {background-color:#fff; color:#000; font:normal normal normal 75%/125% arial,sans-serif; height:100%; text-align:center;}
+body {background:url(../images/bg.png) center; color:#d8a380; font:normal normal normal 75%/125% arial,sans-serif; height:100%; text-align:center;}
 li {margin:0; padding:0; list-style:none;}
+a {text-decoration:none; color:#d8a380;}
+a:hover {text-decoration:underline;}
 
 /* LAYOUT
 *********************************************/
@@ -10,8 +12,10 @@ li {margin:0; padding:0; list-style:none;}
 .container {width:980px; margin:0 auto;}
 
 #header {background:url(../images/bt_top.png) no-repeat center; width:100%; height:154px;}
-#content {}
-#footer {}
+#footer {width:980px; height:30px; padding:30px 0; margin-top:20px; background:url(../images/bottom_bg.jpg) no-repeat;}
+#sidebar {float:left; width:219px; padding:0 5px 0 0; margin:5px 0;}
+#content {float:right; margin:10px 0; width:749px; position:relative;}
+#content .content {padding: 10px 20px; width:709px; background:url(../images/content_bg.png);}
 
 /* Layout Classes */
 
@@ -28,20 +32,47 @@ li {margin:0; padding:0; list-style:none;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
 
-/* menu */
+/* top menu */
 #header .menu {width:735px; float:right; display:block;}
 #header .menu > li {float:left;}
 #header .menu > li a {display:block; width:105px; height:114px; text-indent:-199px; overflow:hidden;}
-#header li.item-101 a {background:url(../images/nav1.jpg) no-repeat 0 0;}
-#header li.item-102 a {background:url(../images/nav2.jpg) no-repeat 0 0;}
-#header li.item-103 a {background:url(../images/nav3.jpg) no-repeat 0 0;}
-#header li.item-104 a {background:url(../images/nav4.jpg) no-repeat 0 0;}
-#header li.item-105 a {background:url(../images/nav5.jpg) no-repeat 0 0;}
-#header li.item-106 a {background:url(../images/nav6.jpg) no-repeat 0 0;}
-#header li.item-107 a {background:url(../images/nav7.jpg) no-repeat 0 0;}
+#header li.item-101 a {background:url(../images/nav1.jpg) no-repeat;}
+#header li.item-102 a {background:url(../images/nav2.jpg) no-repeat;}
+#header li.item-103 a {background:url(../images/nav3.jpg) no-repeat;}
+#header li.item-104 a {background:url(../images/nav4.jpg) no-repeat;}
+#header li.item-105 a {background:url(../images/nav5.jpg) no-repeat;}
+#header li.item-106 a {background:url(../images/nav6.jpg) no-repeat;}
+#header li.item-107 a {background:url(../images/nav7.jpg) no-repeat;}
 #header .menu li a:hover,
 #header .menu li.active a
  {background-position: 0 -114px;}
 
 /* slogan */
-.module_slogan {line-height:40px; color:#fff;}
+.module_slogan {line-height:40px;}
+
+/* sidebar menu */
+.menu_sidebar li a {width:219px; height:71px; display:block; overflow:hidden; text-indent:-71px;}
+.menu_sidebar li.item-114 a {background:url(../images/left_nav1.jpg) no-repeat;}
+.menu_sidebar li.item-115 a {background:url(../images/left_nav2.jpg) no-repeat;}
+.menu_sidebar li.item-116 a {background:url(../images/left_nav3.jpg) no-repeat;}
+.menu_sidebar li.item-117 a {background:url(../images/left_nav4.jpg) no-repeat;}
+.menu_sidebar li.item-118 a {background:url(../images/left_nav5.jpg) no-repeat;}
+.menu_sidebar li.item-119 a {background:url(../images/left_nav6.jpg) no-repeat;}
+.menu_sidebar li.item-120 a {background:url(../images/left_nav7.jpg) no-repeat;}
+.menu_sidebar li.active a,
+.menu_sidebar li a:hover
+ {background-position: 0 -71px;}
+
+/* footer menu */
+.menu_footer {text-align:center;}
+.menu_footer li {display:inline; padding:0 10px; background:url(../images/separator.jpg) left no-repeat;}
+.menu_footer li:first-child {background:none;}
+.module_copyright {text-align:center; padding: 10px 0 0 0;}
+
+/* content */
+.custom_content-top {width:749px; height:60px;}
+.page-itemid103 .custom_content-top {background:url(../images/content_top_deposit.png);}
+.custom_content-bottom {width:749px; height:13px; background:url(../images/content_bottom.png);}
+
+/* breadcrumbs */
+.breadcrumbs {position: absolute; right: 20px; top: 30px;}
