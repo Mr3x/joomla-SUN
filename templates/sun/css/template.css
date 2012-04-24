@@ -5,6 +5,8 @@ body {background:url(../images/bg.png) center; color:#d8a380; font:normal normal
 li {margin:0; padding:0; list-style:none;}
 a {text-decoration:none; color:#d8a380;}
 a:hover {text-decoration:underline;}
+p {margin:15px 0; padding:0;}
+.pagenavcounter {display:none;}
 
 /* LAYOUT
 *********************************************/
@@ -73,6 +75,16 @@ a:hover {text-decoration:underline;}
 .custom_content-top {width:749px; height:60px;}
 .page-itemid103 .custom_content-top {background:url(../images/content_top_deposit.png);}
 .custom_content-bottom {width:749px; height:13px; background:url(../images/content_bottom.png);}
+.deposit_link {background:url(../images/deposit_additional.png) right no-repeat; border-bottom: 1px solid #441e11;}
+.deposit_link a {width:129px; height:45px; display:block; float:left; margin: 0 10px -9px 0; text-indent:-99px; overflow:hidden;}
+.deposit_link a.put {background:url(../images/deposit_put.png);}
+.deposit_link a.get {background:url(../images/deposit_get.png);}
+.deposit_link a:hover,
+.deposit_link a.active {background-position:0 100%;}
 
 /* breadcrumbs */
 .breadcrumbs {position: absolute; right: 20px; top: 30px;}
+
+/* pagination */
+.pagination li {float:left; padding: 5px 10px;}
+.pagination:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
